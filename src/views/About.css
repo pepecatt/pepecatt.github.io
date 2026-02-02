@@ -4,6 +4,7 @@
   --max-width-hero-right: 600px;
   --max-width-skills: 1100px;
   --section-margin-top: 60px;
+  --max-width-project-card: 500px;
   --text-colour: black;
 }
 
@@ -45,9 +46,10 @@
 .hero-buttons {
   display: flex;
   flex-direction: row;
+  width: 100%;
   justify-content: center;
   align-items: center;
-  gap: 15px 15px;
+  gap: 15px 20px;
   display: flex;
   list-style: none;
   margin-right: 10px;
@@ -66,33 +68,33 @@
   align-items: center;
   gap: 5px;
 
-  padding: 8px 16px;
+  padding: 7px 16px;
   border: 2px solid black;
   border-radius: 20px;
 
   text-decoration: none;
   background: none;
   
-  font-size: 20px;
+  font-size: 16px;
   transition: transform 0.7s ease-in-out;
   opacity: 100%;
 }
 
 .resume {
-  width: 30px;
+  width: 20px;
   aspect-ratio: 1/1;
   gap: 15px;
   font-size: 20px;
 }
 
 .linkedin, .github {
-  width: 50px;
+  width: 40px;
   aspect-ratio: 1/1;
   object-fit: cover;
 }
 
 .email {
-  width: 60px;
+  width: 48px;
   aspect-ratio: 1/1;
   object-fit: cover;
 }
@@ -125,8 +127,8 @@
   text-align: right;
 }
 
-.hero-right p {
-  font-size: 18px;
+p {
+  font-size: 16px;
   line-height: 1.5;
   color: #333;
 }
@@ -149,16 +151,17 @@ h1 {
   letter-spacing: 2px;
   text-align: center;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 #skills p {
-  margin: 20px 0px 20px 305px;
+  margin: 0px 0px 20px 305px;
   font-size: 20px;
 }
 
 #skills h2 {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #skills li {
@@ -166,7 +169,7 @@ h1 {
   align-items: center;
   gap: 10px;
   list-style: none;
-  font-size: 25px;
+  font-size: 20px;
   margin-right: 10px;
 }
 
@@ -174,22 +177,22 @@ h1 {
   display: grid;
   grid-template-columns: 300px 1fr;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .programming-icons, .software-icons, .frameworks-tools-icons, .hardware-lab-icons {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px 15px;
+  gap: 15px 10px;
   align-items: center;
 }
 
 .hardware-lab-icons {
-  gap: 8px 0px;
+  gap: 5px 0px;
 }
 
 .programming-icons img, .software-icons img, .frameworks-tools-icons img {
-  width: 40px;
+  width: 30px;
   aspect-ratio: 1/1;
   object-fit: contain;
 }
@@ -204,3 +207,48 @@ h1 {
 }
 
 
+/* ---------------- PROJECTS ----------------- */
+#projects {
+  max-width: var(--max-width);
+  margin: 0px auto;
+  margin-top: var(--section-margin-top);
+  padding: 80px 0px
+}
+
+.projects-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px 40px;;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width-project-card);
+  border: 1px solid black;
+  background-color: rgb(244, 244, 244);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.project-card img {
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 100%;
+  aspect-ratio: 5/3;
+  object-fit: cover;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.read-more {
+  text-align: right;
+  position: relative;
+  bottom: 0;
+  text-decoration: underline;
+}

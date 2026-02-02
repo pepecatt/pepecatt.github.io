@@ -11,16 +11,20 @@ function AboutView() {
             <img className="portrait" src="/src/images/portrait.jpeg"></img>
             <div className="hero-buttons">
               <a className="resume-btn" href="" target="_blank">
-                <img className="resume" src="src\icons\apps\download-minimalistic-svgrepo-com.svg"></img>
+                <img
+                  className="resume"
+                  src="src\icons\apps\download-minimalistic-svgrepo-com.svg"
+                ></img>
                 Resume
               </a>
               <button
                 href="https://www.linkedin.com/in/catherine-huang-3b6449348/"
                 target="_blank"
               >
-                <img 
+                <img
                   className="linkedin"
-                  src="src\icons\apps\linkedin-svgrepo-com.svg"></img>
+                  src="src\icons\apps\linkedin-svgrepo-com.svg"
+                ></img>
               </button>
               <button href="https://github.com/pepecatt" target="_blank">
                 <img
@@ -29,9 +33,10 @@ function AboutView() {
                 ></img>
               </button>
               <button href="mailto:c365huan@uwaterloo.ca" target="_blank">
-                <img 
-                className="email"
-                src="src\icons\apps\mail-svgrepo-com.svg"></img>
+                <img
+                  className="email"
+                  src="src\icons\apps\mail-svgrepo-com.svg"
+                ></img>
               </button>
             </div>
           </div>
@@ -180,13 +185,52 @@ function AboutView() {
             <h2>Languages</h2>
             <ul className="hardware-lab-icons">
               <li>English, </li>
-              <li>French (B1), </li>
+              <li className="learning">French (B1), </li>
               <li>Chinese (Intermediate)</li>
             </ul>
           </div>
         </section>
 
-        
+        <section id="projects" href="projects">
+          <h1>Featured Projects</h1>
+          <div className="projects-div">
+            <div className="project-card">
+              <img src="src\images\proj-electrium\pcb.jpeg"></img>
+              <h3>Electric Skateboard Tail Light System</h3>
+              <p>
+                Designed and implemented the tail light system using the ATmega328P
+                microcontroller, designed PCB in KiCad, soldered SMD components,
+                verified functionality using a multimeter and oscilloscope.
+              </p>
+              <p className="read-more"> Schematics and more →</p>
+            </div>
+            <div className="project-card">
+              <img src="src\images\proj-electrium\pcb.jpeg"></img>
+              <h3>This Website</h3>
+              <p>
+                A self-coded portfolio to showcase my skills and projects. A fun passion project!
+              </p>
+              <p className="read-more">GitHub link</p>
+            </div>
+            <div className="project-card">
+              <img src="src\images\proj-electrium\pcb.jpeg"></img>
+              <h3>Triboelectric Nanogenerator</h3>
+              <p>
+                Designed and modeled a TENG device to convert wind energy into electricity
+              </p>
+              <p className="read-more">Read more →</p>
+            </div>
+            <div className="project-card">
+              <img src="src\images\proj-electrium\pcb.jpeg"></img>
+              <h3>(In Progress) Aircraft Embedded Flight Software</h3>
+              <p>
+                Program the team’s custom autopilot, ZeroPilot, and verify flight control 
+                functionality using C, C++, and STM32-based hardware.
+              </p>
+              <p className="read-more">Read more →</p>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
