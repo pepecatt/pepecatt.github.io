@@ -3,9 +3,11 @@
   --max-width: 1200px;
   --max-width-hero-right: 600px;
   --max-width-skills: 1100px;
+  --max-width-skills-col: 230px;
   --section-margin-top: 60px;
   --max-width-project-card: 500px;
   --text-colour: black;
+  --img-border-radius: 20px;
 }
 
 .main-page {
@@ -70,7 +72,7 @@
 
   padding: 7px 16px;
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: var(--img-border-radius);
 
   text-decoration: none;
   background: none;
@@ -155,8 +157,8 @@ h1 {
 }
 
 #skills p {
-  margin: 0px 0px 20px 305px;
-  font-size: 20px;
+  margin: 0px 0px 20px calc(var(--max-width-skills-col) + 5px);
+  font-size: 18px;
 }
 
 #skills h2 {
@@ -175,9 +177,9 @@ h1 {
 
 .programming, .software, .frameworks-tools, .hardware-lab, .languages {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: var(--max-width-skills-col) 1fr;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .programming-icons, .software-icons, .frameworks-tools-icons, .hardware-lab-icons {
@@ -228,12 +230,12 @@ h1 {
   max-width: var(--max-width-project-card);
   border: 1px solid black;
   background-color: rgb(244, 244, 244);
-  border-radius: 20px;
+  border-radius: var(--img-border-radius);
   padding: 15px;
 }
 
 .project-card img {
-  border-radius: 20px;
+  border-radius: var(--img-border-radius);
   margin: 0 auto;
   margin-bottom: 10px;
   width: 100%;
@@ -251,4 +253,62 @@ h3 {
   position: relative;
   bottom: 0;
   text-decoration: underline;
+}
+
+
+
+/* ------------ EXPERIENCE -------------*/
+#experience {
+  max-width: var(--max-width);
+  margin: 0px auto;
+  margin-top: var(--section-margin-top);
+  padding: 50px 40px;
+  margin-bottom: 500px;
+}
+
+.experience-cards-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-card {
+  display: grid;
+  grid-template-columns: 1fr 370px;
+  background-color: rgb(255, 237, 240);
+  border-radius: var(--img-border-radius);
+  padding: 20px;
+}
+
+.experience-text {
+  padding-right: 40px;
+}
+
+.deardaisie-logo {
+  width: 150px;
+  margin-bottom: -5px;
+  margin-left: -3px;
+}
+
+.experience-info {
+  margin-bottom: 5px;
+}
+
+.experience-card li {
+  position: relative;
+  left: 20px;
+}
+
+.experience-img {
+  width: 100%;
+  border-radius: var(--img-border-radius);
+}
+
+.experience-card a {
+  color: black;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
 }

@@ -65,7 +65,7 @@ function AboutView() {
           <h1>Skills</h1>
           <p>Highlighted are the skills I'm learning right now!</p>
           <div className="programming">
-            <h2>Programming</h2>
+            <h3>Programming</h3>
             <ul className="programming-icons">
               <li>
                 <img src="src\icons\icons1\java-svgrepo-com.svg" />
@@ -76,101 +76,104 @@ function AboutView() {
                 Python
               </li>
               <li className="learning">
-                <img src="src\icons\icons1\C_Programming_Language.svg" />C{" "}
+                <img src="src\icons\icons1\C_Programming_Language.svg" />C
               </li>
               <li className="learning">
                 <img src="src\icons\icons1\C++_Logo.svg" />
-                C++{" "}
+                C++
               </li>
               <li>
                 <img src="src\icons\icons1\html-5-svgrepo-com.svg" />
-                HTML{" "}
+                HTML
               </li>
               <li>
                 <img src="src\icons\icons1\css-3-svgrepo-com.svg" />
-                CSS{" "}
+                CSS
               </li>
               <li>
                 <img src="src\icons\icons1\javascript-svgrepo-com.svg" />
-                JavaScript{" "}
+                JavaScript
               </li>
             </ul>
           </div>
           <div className="frameworks-tools">
-            <h2>Frameworks & Tools</h2>
+            <h3>Frameworks & Tools</h3>
             <ul className="frameworks-tools-icons">
               <li>
-                <img src="src\icons\icons1\react-svgrepo-com.svg" />
-                React{" "}
+                <img src="src\icons\icons2\react-svgrepo-com.svg" />
+                React
               </li>
               <li>
-                <img src="src\icons\icons1\numpy-svgrepo-com.svg" />
-                Numpy{" "}
+                <img src="src\icons\icons2\numpy-svgrepo-com.svg" />
+                Numpy
               </li>
               <li>
-                <img src="src\icons\icons1\pandas-svgrepo-com.svg" />
-                Pandas{" "}
+                <img src="src\icons\icons2\pandas-svgrepo-com.svg" />
+                Pandas
               </li>
               <li>
-                <img src="src\icons\icons1\firebase.svg"></img>Firebase Auth
+                <img src="src\icons\icons2\firebase.svg"></img>Firebase Auth
               </li>
               <li>
-                <img src="src\icons\icons1\imdb-svgrepo-com.svg"></img>IMDb
-                API{" "}
+                <img src="src\icons\icons2\imdb-svgrepo-com.svg"></img>IMDb API
               </li>
             </ul>
           </div>
           <div className="software">
-            <h2>Software</h2>
+            <h3>Software</h3>
             <ul className="software-icons">
               <li>
-                <img src="src\icons\icons2\solidworks.svg"></img>SolidWorks{" "}
+                <img src="src\icons\icons3\solidworks.svg"></img>SolidWorks
               </li>
               <li className="learning">
-                <img src="src\icons\icons2\matlab-svgrepo-com.svg"></img>
-                MATLAB{" "}
+                <img src="src\icons\icons3\matlab-svgrepo-com.svg"></img>
+                MATLAB
               </li>
               <li>
-                <img src="src\icons\icons2\excel-svgrepo-com.svg"></img>
-                Excel{" "}
+                <img src="src\icons\icons3\excel-svgrepo-com.svg"></img>
+                Excel
               </li>
               <li>
-                <img src="src\icons\icons2\word-svgrepo-com.svg"></img>Word{" "}
+                <img src="src\icons\icons3\word-svgrepo-com.svg"></img>Word
               </li>
               <li>
-                <img src="src\icons\icons2\git-svgrepo-com.svg"></img>Git &
-                GitHub{" "}
+                <img src="src\icons\icons3\git-svgrepo-com.svg"></img>Git &
+                GitHub
               </li>
               <li>
-                <img src="src\icons\icons2\vs-code-svgrepo-com.svg"></img>VS
-                Code{" "}
+                <img src="src\icons\icons3\vs-code-svgrepo-com.svg"></img>VS
+                Code
               </li>
               <li>
-                <img src="src\icons\icons2\intellij-svgrepo-com.svg"></img>
-                IntelliJ IDEA{" "}
+                <img src="src\icons\icons3\intellij-svgrepo-com.svg"></img>
+                IntelliJ IDEA
               </li>
               <li>
-                <img src="src\icons\icons2\KiCad-Logo.svg"></img>KiCad{" "}
+                <img src="src\icons\icons3\KiCad-Logo.svg"></img>KiCad
               </li>
               <li className="learning">
-                <img src="src\icons\icons2\stm32.png"></img>STM32CubeIDE{" "}
+                <img src="src\icons\icons3\stm32.png"></img>STM32CubeIDE
+              </li>
+              <li className="learning">
+                <img src="src\icons\icons3\shopify-svgrepo-com.svg"></img>
+                Shopify
               </li>
               <li>
-                <img src="src\icons\icons2\photoshop-cc-logo-svgrepo-com.svg"></img>
-                Adobe Photoshop{" "}
+                <img src="src\icons\icons3\photoshop-cc-logo-svgrepo-com.svg"></img>
+                Adobe Photoshop
               </li>
               <li>
-                <img src="src\icons\icons2\adobe-after-effects-svgrepo-com.svg"></img>
-                Adobe After Effects{" "}
+                <img src="src\icons\icons3\adobe-after-effects-svgrepo-com.svg"></img>
+                Adobe After Effects
               </li>
               <li>
-                <img src="src\icons\icons2\capcut-svgrepo-com.svg"></img>
-                Capcut{" "}
+                <img src="src\icons\icons3\capcut-svgrepo-com.svg"></img>
+                Capcut
               </li>
             </ul>
           </div>
           <div className="hardware-lab">
-            <h2>Hardware & Lab</h2>
+            <h3>Hardware & Lab</h3>
             <ul className="hardware-lab-icons">
               <li>PCBs, </li>
               <li>Microcontrollers: </li>
@@ -182,7 +185,7 @@ function AboutView() {
             </ul>
           </div>
           <div className="hardware-lab">
-            <h2>Languages</h2>
+            <h3>Languages</h3>
             <ul className="hardware-lab-icons">
               <li>English, </li>
               <li className="learning">French (B1), </li>
@@ -198,9 +201,10 @@ function AboutView() {
               <img src="src\images\proj-electrium\pcb.jpeg"></img>
               <h3>Electric Skateboard Tail Light System</h3>
               <p>
-                Designed and implemented the tail light system using the ATmega328P
-                microcontroller, designed PCB in KiCad, soldered SMD components,
-                verified functionality using a multimeter and oscilloscope.
+                Designed and implemented the tail light system using the
+                ATmega328P microcontroller, designed PCB in KiCad, soldered SMD
+                components, verified functionality using a multimeter and
+                oscilloscope.
               </p>
               <p className="read-more"> Schematics and more →</p>
             </div>
@@ -208,7 +212,8 @@ function AboutView() {
               <img src="src\images\proj-electrium\pcb.jpeg"></img>
               <h3>This Website</h3>
               <p>
-                A self-coded portfolio to showcase my skills and projects. A fun passion project!
+                A self-coded portfolio to showcase my skills and projects. A fun
+                passion project!
               </p>
               <p className="read-more">GitHub link</p>
             </div>
@@ -216,7 +221,8 @@ function AboutView() {
               <img src="src\images\proj-electrium\pcb.jpeg"></img>
               <h3>Triboelectric Nanogenerator</h3>
               <p>
-                Designed and modeled a TENG device to convert wind energy into electricity
+                Designed and modeled a TENG device to convert wind energy into
+                electricity.
               </p>
               <p className="read-more">Read more →</p>
             </div>
@@ -224,10 +230,83 @@ function AboutView() {
               <img src="src\images\proj-electrium\pcb.jpeg"></img>
               <h3>(In Progress) Aircraft Embedded Flight Software</h3>
               <p>
-                Program the team’s custom autopilot, ZeroPilot, and verify flight control 
-                functionality using C, C++, and STM32-based hardware.
+                Program the team’s custom autopilot, ZeroPilot, and verify
+                flight control functionality using C, C++, and STM32-based
+                hardware.
               </p>
               <p className="read-more">Read more →</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" href="experience">
+          <h1>Experience</h1>
+          <div className="experience-cards-div">
+            <div className="experience-card">
+              <div className="experience-text">
+                <h2>
+                  <img
+                    className="deardaisie-logo"
+                    src="src\images\Dear Daisie logo.png"
+                  ></img>
+                </h2>
+                <p className="experience-info">
+                  December 2025 - Present &nbsp;|&nbsp; Remote
+                </p>
+                <ul>
+                  <p>
+                    Co-founded with my sister, Dear Daisie is a gift brand
+                    offering plush flower bouquets, each holding their own
+                    meaning and symbolic narrative.
+                  </p>
+                  <li>
+                    Built a Shopify e-commerce website with custom CSS and
+                    managed social media marketing
+                  </li>
+                  <li>
+                    Coordinated with manufacturer to translate conceptual
+                    designs into finished products
+                  </li>
+                  <a href="https://www.deardaisie.com" target="_blank">
+                    deardaisie.com
+                  </a>
+                </ul>
+              </div>
+              <img
+                className="experience-img"
+                src="src\images\deardaisie website.png"
+              ></img>
+            </div>
+            <div className="experience-card">
+              <div className="experience-text">
+                <h2>Music Camp Counsellor</h2>
+                <p className="experience-info">
+                  October 2023, October 2024 &nbsp;|&nbsp; Schomberg, ON
+                </p>
+                <ul>
+                  <li>
+                    Served as a senior counsellor for two annual music retreats
+                    supporting 80+ junior students, providing leadership,
+                    mentorship, and day-to-day supervision
+                  </li>
+                  <li>
+                    Facilitated daily small-group rehearsals (6–10 students),
+                    offering individualized feedback in orchestral score reading
+                    and string technique while adapting instruction to varied
+                    skill levels
+                  </li>
+                  <li>
+                    Collaborated with 2–5 peer leaders to plan and execute
+                    large-scale team-building activities for 80+ students,
+                    strengthening coordination, engagement, and peer
+                    collaboration
+                  </li>
+                </ul>
+              </div>
+              <img
+                className="experience-img"
+                src="src\images\deardaisie website.png"
+              ></img>
             </div>
           </div>
         </section>
